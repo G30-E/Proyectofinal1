@@ -1,3 +1,4 @@
+// Importación de librerías necesarias
 using Newtonsoft.Json;
 using System;
 using System.Data.SqlClient;
@@ -17,8 +18,9 @@ namespace proyecto1
 {
     public partial class Form1 : Form
     {
+        // Constantes para conectarse con la API de Groq
         private const string GroqEndpoint = "https://api.groq.com/openai/v1/chat/completions";
-        private const string GroqApiKey = "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"; 
+        private const string GroqApiKey = "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";
         private const string Model = "llama3-70b-8192";
 
         public Form1()
@@ -26,6 +28,7 @@ namespace proyecto1
             InitializeComponent();
         }
 
+        // Evento que se ejecuta cuando se presiona el botón "Consultar"
         private async void buttonConsultar_Click(object sender, EventArgs e)
         {
             string consulta = textBoxConsultaIA.Text.Trim();
@@ -40,10 +43,11 @@ namespace proyecto1
 
             try
             {
+                // Se consulta a la IA y se muestra la respuesta
                 string respuesta = await ObtenerRespuestaGroq(consulta);
                 textBoxResultadoAI.Text = respuesta;
 
-                // Guardar automáticamente en la base de datos
+                // Se guarda automáticamente en la base de datos y se generan archivos Word y PowerPoint
                 GuardarEnBaseDeDatos(consulta, respuesta);
                 GenerarArchivos(consulta, respuesta);
             }
@@ -53,6 +57,7 @@ namespace proyecto1
             }
         }
 
+        // Función que realiza la consulta a la API de Groq y devuelve la respuesta generada
         private async Task<string> ObtenerRespuestaGroq(string prompt)
         {
             using (HttpClient client = new HttpClient())
@@ -74,6 +79,7 @@ namespace proyecto1
                 int maxRetries = 3;
                 int delay = 2000; // milisegundos
 
+                // Se intenta enviar la solicitud hasta 3 veces si se recibe error 429 (demasiadas solicitudes)
                 for (int i = 0; i < maxRetries; i++)
                 {
                     var response = await client.PostAsync(GroqEndpoint, content);
@@ -96,9 +102,10 @@ namespace proyecto1
             }
         }
 
+        // Guarda la consulta y la respuesta en la base de datos SQL Server
         private void GuardarEnBaseDeDatos(string consulta, string respuesta)
         {
-            string connectionString = "Server=USER-PC\\SQLEXPRESS;Database=Consultas;Integrated Security=True;";
+            string connectionString = "Server=USER-PC\\SQLEXPRESS01;Database=ConsultasGroq;Integrated Security=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -106,7 +113,7 @@ namespace proyecto1
                 {
                     connection.Open();
 
-                    string query = "INSERT INTO ConsultasOpenAI (Fecha, Consulta, Respuesta) VALUES (@Fecha, @Consulta, @Respuesta)";
+                    string query = "INSERT INTO ConsultasGroq (Fecha, Consulta, Respuesta) VALUES (@Fecha, @Consulta, @Respuesta)";
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
@@ -126,6 +133,7 @@ namespace proyecto1
             }
         }
 
+        // Genera los archivos Word y PowerPoint con la consulta y respuesta
         private void GenerarArchivos(string consulta, string respuesta)
         {
             string carpetaPrincipal = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ConsultasGroq");
@@ -133,7 +141,7 @@ namespace proyecto1
             if (!Directory.Exists(carpetaPrincipal))
                 Directory.CreateDirectory(carpetaPrincipal);
 
-            // Crear una subcarpeta con el nombre de la consulta (limpiando caracteres inválidos)
+            // Crea una subcarpeta para cada consulta con nombre basado en la consulta
             string nombreSubCarpeta = string.Concat(consulta.Split(Path.GetInvalidFileNameChars()));
             string carpetaConsulta = Path.Combine(carpetaPrincipal, nombreSubCarpeta);
 
@@ -150,6 +158,7 @@ namespace proyecto1
             CrearPresentacionPowerPointOpenXml(rutaPptx, consulta, respuesta);
         }
 
+        // Crea un documento Word con la consulta y la respuesta usando Open XML
         private void CrearDocumentoWordOpenXml(string ruta, string consulta, string respuesta)
         {
             using (WordprocessingDocument wordDoc = WordprocessingDocument.Create(ruta, WordprocessingDocumentType.Document))
@@ -175,6 +184,7 @@ namespace proyecto1
             }
         }
 
+        // Crea una presentación PowerPoint con una diapositiva para la consulta y otra para la respuesta
         private void CrearPresentacionPowerPointOpenXml(string ruta, string consulta, string respuesta)
         {
             using (PresentationDocument presentationDocument = PresentationDocument.Create(ruta, PresentationDocumentType.Presentation))
@@ -182,6 +192,7 @@ namespace proyecto1
                 PresentationPart presentationPart = presentationDocument.AddPresentationPart();
                 presentationPart.Presentation = new P.Presentation();
 
+                // Crear dos diapositivas: una para la consulta y otra para la respuesta
                 SlidePart slidePart1 = AddSlide(presentationPart, "Consulta", consulta);
                 SlidePart slidePart2 = AddSlide(presentationPart, "Respuesta", respuesta);
 
@@ -194,6 +205,7 @@ namespace proyecto1
             }
         }
 
+        // Agrega una nueva diapositiva al documento de PowerPoint con título y contenido
         private SlidePart AddSlide(PresentationPart presentationPart, string titulo, string contenido)
         {
             SlidePart slidePart = presentationPart.AddNewPart<SlidePart>();
@@ -214,6 +226,7 @@ namespace proyecto1
             return slidePart;
         }
 
+        // Crea una forma de texto (cuadro de texto) con posición y tamaño para una diapositiva de PowerPoint
         private P.Shape CreateTextShape(uint id, string text, int x, int y, int cx, int cy)
         {
             return new P.Shape(
