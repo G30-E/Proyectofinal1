@@ -1,0 +1,55 @@
+C:\P1\proyecto1\proyecto1\bin\Debug\net9.0-windows\proyecto1.exe
+C:\P1\proyecto1\proyecto1\bin\Debug\net9.0-windows\proyecto1.deps.json
+C:\P1\proyecto1\proyecto1\bin\Debug\net9.0-windows\proyecto1.runtimeconfig.json
+C:\P1\proyecto1\proyecto1\bin\Debug\net9.0-windows\proyecto1.dll
+C:\P1\proyecto1\proyecto1\bin\Debug\net9.0-windows\proyecto1.pdb
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.Form1.resources
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.GenerateResource.cache
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.AssemblyInfoInputs.cache
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.AssemblyInfo.cs
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.CoreCompileInputs.cache
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.dll
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\refint\proyecto1.dll
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.pdb
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\proyecto1.genruntimeconfig.cache
+C:\P1\proyecto1\proyecto1\obj\Debug\net9.0-windows\ref\proyecto1.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\P1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\P1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.AssemblyReference.cache
+C:\P1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.Up2Date
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\proyecto1.exe
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\proyecto1.deps.json
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\proyecto1.runtimeconfig.json
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\proyecto1.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\proyecto1.pdb
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.Form1.resources
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.AssemblyInfo.cs
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.sourcelink.json
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.csproj.Up2Date
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\refint\proyecto1.dll
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.pdb
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\proyecto1.genruntimeconfig.cache
+C:\Users\user\Desktop\Pruebaproyecto 1\pruebaproyecto1\PROYECTO1\proyecto1\obj\Debug\net9.0-windows\ref\proyecto1.dll
