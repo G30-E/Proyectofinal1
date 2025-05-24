@@ -18,7 +18,7 @@ namespace proyecto1
     public partial class Form1 : Form
     {
         private const string GroqEndpoint = "https://api.groq.com/openai/v1/chat/completions";
-        private const string GroqApiKey = "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"; 
+        private const string GroqApiKey = ""; //aqui va la API Key
         private const string Model = "llama3-70b-8192";
 
         public Form1()
